@@ -12,6 +12,9 @@ function setup() {
 }
 
 function draw() {
+  
+  data = [];
+  
   background(51);
   video.loadPixels();
   for (var y = 0; y < video.height; y++) {
