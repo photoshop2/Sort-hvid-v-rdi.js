@@ -55,7 +55,7 @@ function draw() {
             pixels[index4 + 2]=b;
             pixels[index4 + 3]=255;*/
 
-            data.push(r + " " + g + " " + b);
+            data.push(rGennemsnit + " " + gGennemsnit + " " + bGennemsnit);
         }
     }
     updatePixels();
