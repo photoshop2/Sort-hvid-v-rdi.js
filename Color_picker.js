@@ -10,9 +10,7 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(width,height);
   video.hide();
-  
 }
-
 function draw() {
   cursor(CROSS);
   background(51);
